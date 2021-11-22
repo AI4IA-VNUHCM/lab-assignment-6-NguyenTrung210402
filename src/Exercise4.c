@@ -25,7 +25,7 @@ void Ex4(char *str){
                 nBegin = i + 1;
             }
  
-            if(str[i + 1] == ' ' , i == 0 , i == n - 2) 
+            if(str[i + 1] == ' ' || i == 0 || i == n - 2 ) 
 			{
                 for(int j = nBegin; j < n - 1; j++){
                     char cTemp = str[j];
